@@ -10,4 +10,11 @@ public class Course {
     private final String description;
     private final Set<String> skillsGained;
 
+    public Course(UUID id, String title, String platform, String description, Set<String> skillsGained) {
+        this.id = id;
+        this.title = title;
+        this.platform = platform;
+        this.description = description;
+        this.skillsGained = skillsGained;
+    }
 }
